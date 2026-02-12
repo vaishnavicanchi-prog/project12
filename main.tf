@@ -6,17 +6,17 @@ provider "aws" {
 
 
 
-resource "aws_s3_bucket" "project7_bucket" {
+resource "aws_s3_bucket" "project12_bucket" {
 
-  bucket = "vaishnavi-bucket-project7"
+  bucket = "vaishnavi-bucket-project12"
 
 
 
   tags = {
 
-    Name        = "Project7Bucket"
+    Name        = "Project12Bucket"
 
-    Environment = "Dev"
+    Environment = "dev"
 
   }
 }
