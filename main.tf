@@ -19,4 +19,5 @@ resource "aws_s3_bucket" "project7_bucket" {
     Environment = "Dev"
 
   }
+}
 
